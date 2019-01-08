@@ -43,7 +43,7 @@ void ChessBoard::allocateChessBoard(){
       }
     }
   }
-
+ 
   cout << "A new chess game is started!" << endl;
 }
 
