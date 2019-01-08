@@ -1,6 +1,6 @@
 #include "Pawn.h"
 #include <iostream>
-
+ 
 using namespace std;
 
 bool Pawn::isMoveOK(int s_row, int s_column, int d_row, int d_column, Piece* board[8][8]){
