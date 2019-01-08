@@ -1,6 +1,6 @@
 #include "Bishop.h"
 #include <iostream>
-
+ 
 using namespace std;
 
 bool Bishop::isMoveOK(int s_row, int s_column, int d_row, int d_column, Piece* board[8][8]){
