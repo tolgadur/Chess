@@ -2,7 +2,7 @@
 #include <iostream>
 
 using namespace std;
-
+ 
 bool Queen::isMoveOK(int s_row, int s_column, int d_row, int d_column, Piece* board[8][8]){
   bool destination_has_piece = (board[d_row][d_column] == nullptr) ? false : true;
   bool destination_piece_is_white = false;
