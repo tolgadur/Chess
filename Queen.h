@@ -39,7 +39,7 @@ bool Queen::isMoveOK(int s_row, int s_column, int d_row, int d_column, Piece* bo
       }
     }
   }
-
+ 
   //if both dont work return false
   return false;
 }
