@@ -25,3 +25,4 @@ bool Castle::isMoveOK(int s_row, int s_column, int d_row, int d_column, Piece* b
   }
   return false;
 }
+ 
