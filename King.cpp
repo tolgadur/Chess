@@ -24,3 +24,4 @@ bool King::isMoveOK(int s_row, int s_column, int d_row, int d_column, Piece* boa
   }
   return false;
 }
+ 
